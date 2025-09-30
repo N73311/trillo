@@ -36,6 +36,7 @@ jobs:
             --exclude ".git/*" \
             --exclude ".github/*" \
             --exclude "sass/*" \
+            --exclude "node_modules/**" \
             --exclude "README.md" \
             --exclude "LICENSE" \
             --exclude "package*.json"
